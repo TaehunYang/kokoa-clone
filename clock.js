@@ -1,6 +1,4 @@
 const clock = document.getElementById("clock");
-console.log(clock);
-console.log(new Date());
 
 const clockInterval = () => {
   const date = new Date();
@@ -11,7 +9,7 @@ const clockInterval = () => {
 
 const clockInit = () => {
   clockInterval();
-  setInterval(clockInterval, 1000);
+  setInterval(clockInterval, 60000);
 };
 
 clockInit();
