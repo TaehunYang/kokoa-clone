@@ -6,6 +6,7 @@
   justify-content: center;
   padding: 5px 3px;
   box-sizing: border-box;
+  background-color: white;
 }
 .status-bar__column {
   width: 33%;
@@ -25,4 +26,7 @@
 
 .status-bar__column .fa-battery-full {
   margin: 0px 5px;
+}
+#status-bar {
+  background-color: #abc1d1;
 }
