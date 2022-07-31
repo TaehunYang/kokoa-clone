@@ -9,6 +9,7 @@
 @import "components/badge.css";
 @import "components/icon-row.css";
 @import "components/alt-screen-header.css";
+@import "components/no-mobile.css";
 /* screen */
 @import "screens/login.css";
 @import "screens/friends.css";
@@ -19,7 +20,6 @@
 body {
   color: #2e363e;
   font-family: "Open Sans", sans-serif;
-  height: 250vh;
 }
 
 .main-screen {
