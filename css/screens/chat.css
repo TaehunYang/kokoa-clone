@@ -35,6 +35,7 @@
   flex-direction: column;
   align-items: center;
   animation: fadeIn 0.3s linear;
+  height: 100vh;
 }
 .chat__timestamp {
   color: white;

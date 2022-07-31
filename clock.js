@@ -9,7 +9,7 @@ const clockInterval = () => {
 
 const clockInit = () => {
   clockInterval();
-  setInterval(clockInterval, 60000);
+  setInterval(clockInterval, 1000);
 };
 
 clockInit();
